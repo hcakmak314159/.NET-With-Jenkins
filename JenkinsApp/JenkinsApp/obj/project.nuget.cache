@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ck/MCbA39fTEdvZ2Cc+sFscexMSy+yMcS8/n+iNW1G3wpwp/9GCjZaoX9ZM2kGtoZcc2thsS0dR1buMwGZCjQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hcakmak\\Documents\\GitHub\\.NET-With-Jenkins\\JenkinsApp\\JenkinsApp\\JenkinsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hcakmak\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
