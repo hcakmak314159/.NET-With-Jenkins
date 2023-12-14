@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Build') {
+            steps {
+                // Clean and restore NuGet packages
+                bat 'dotnet restore'
+                
+                // Build the solution
+                bat 'dotnet build'
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                // Run unit tests
+                bat 'dotnet test'
+            }
+        }
+        
+        stage('Publish') {
+            steps {
+                // Publish the web app
+                bat 'dotnet publish -c Release -o ./publish'
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                // Deploy the web app to a server or cloud platform
+                // Add your deployment steps here
+            }
+        }
+    }
+}
